@@ -1,0 +1,60 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    width: 500px;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+}
+.container .arrow {
+    position: absolute;
+    width: 30px;
+    top: 40.5%;
+    left: 0;
+}
+.container .point {
+    font-size: 70px;
+    position: absolute;
+    top: 33.5%;
+    left: 47.5%;
+    color: black;
+}
+.container .result {
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.container button {
+    font-size: 30px;
+    padding: 10px;
+}
+.wheel {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(134, 87, 1);
+    border-radius: 100%;
+    transition: 5s;
+}
+.wheel li {
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 1px;
+    width: 235px;
+    height: 50px;
+    padding-left: 15px;
+    top: 225px;
+    transform-origin: right;
+}
+.wheel li img {
+    height: 50px;
+}
